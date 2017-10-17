@@ -1,0 +1,94 @@
+h1{
+  margin-left: 20px;
+  color: #6cd21c;
+}
+
+.cancha{
+  width: 1000px;
+  height: 500px;
+  background-color: #62c121;
+  margin: 20px;
+  position: relative;
+}
+
+.borde_cancha{
+  width: 950px;
+  height: 450px;
+  border: 5px solid #fff;
+  background-color: #62c121;
+  margin-top: 10px;
+  position: absolute;
+  top: 10px;
+  left: 20px;
+}
+
+.arco_derecho{
+  width: 100px;
+  height: 200px;
+  border: 5px solid #fff;
+  background-color: #62c121;
+  margin-top: 10px;
+  position: absolute;
+  top: 135px;
+  left: 20px;
+}
+
+.arco_izquierdo{
+  width: 100px;
+  height: 200px;
+  border: 5px solid #fff;
+  background-color: #62c121;
+  margin-top: 10px;
+  position: absolute;
+  top: 135px;
+  right: 20px;
+}
+
+.circulo_centro{
+  width: 180px;
+  height: 180px;
+  border: 5px solid #fff;
+  background-color: #62c121;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  position: absolute;
+  top:155px;
+  left:405px;
+}
+
+.ball1 {
+ width: 25px;
+ height: 25px;
+ background-image: url(img/ball.png);
+ background-size: 100%;
+ position: absolute;
+ top: 145px;
+ bottom: 0;
+ right: 0;
+ left: 110px;
+}
+
+.ball2 {
+ width: 25px;
+ height: 25px;
+ background-image: url(img/ball.png);
+ background-size: 100%;
+ position: absolute;
+ top: 80px;
+ bottom: 0;
+ right: 0;
+ left: 500px;
+ }
+
+.ball3 {
+ width: 25px;
+ height: 25px;
+ background-image: url(img/ball.png);
+ background-size: 100%;
+ position: absolute;
+ top: 310px;
+ bottom:0;
+ right: 0;
+ left: 840px;
+}
